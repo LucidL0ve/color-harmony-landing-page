@@ -1,1 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+/* ---------- Global Styles ---------- */
+body {
+  margin: 0;
+  font-family: "PT Serif", sans-serif;
+  color: #010101;
+  background-color: #fdfdfd;
+  line-height: 1.7;
+}
+
+h1,
+h2 {
+  font-family: "Tangerine", cursive;
+  margin-top: 0;
+}
+
+/* ---------- ena Section ---------- */
+.ena {
+  height: 90vh;
+  background: linear-gradient(rgba(154, 133, 145, 0.6), rgba(61, 60, 121, 0.7)),
+    url("https://static.wikitide.net/projectsekaiwiki/f/fc/Ena_45_art.png")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF2F9;
+  text-align: center;
+}
+
+.ena .overlay {
+  padding: 2rem;
+}
+
+.ena h1 {
+  font-size: 4.5rem;
+  letter-spacing: 3px;
+}
+
+.ena p {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+/* ---------- Gradient Section ---------- */
+.gradient-section {
+  background: linear-gradient(to bottom, #543343, #9A8591);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.gradient-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* ---------- Solid Color Section ---------- */
+.solid-section {
+  background-color: #F9F7EE;
+  color: #333;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.solid-section h2 {
+  color: #D2755F;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.solid-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* ---------- ena2 Section ---------- */
+
+.ena2 {
+  height: 90vh;
+  background: linear-gradient(rgba(210, 117, 95, 0.5), rgba(55, 44, 39, 0.7)),
+    url("https://static.wikitide.net/projectsekaiwiki/3/36/Ena_45_trained_art.png")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF2F9;
+  text-align: center;
+}
+
+.ena2 .overlay2 {
+  padding: 2rem;
+}
+
+.ena2 h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.ena2 p {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 1.5rem 1re;
+}
+/* ---------- Responsiveness (Optional Enhancements) ---------- */
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .gradient-section,
+  .solid-section {
+    padding: 6rem 2rem;
+  }
+}
